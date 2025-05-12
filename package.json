@@ -1,0 +1,32 @@
+{
+  "name": "cg-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:all": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish-chamoli002/CG-UI-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ashish-chamoli002/CG-UI-Automation/issues"
+  },
+  "homepage": "https://github.com/Ashish-chamoli002/CG-UI-Automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "dotenv": "^16.5.0"
+  }
+}
